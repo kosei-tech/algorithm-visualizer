@@ -1,5 +1,5 @@
-from ..algorithms.sort.quicksort import QuickSort
-from ..algorithms.sort.mergesort import MergeSort
+from algorithms.sort.quicksort import QuickSort
+from algorithms.sort.mergesort import MergeSort
 
 class SortService:
     def __init__(self):
