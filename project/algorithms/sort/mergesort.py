@@ -12,15 +12,14 @@ class MergeSort(Sorter):
                 else: 
                     sub_data.append(data[j])
                     j += 1
-                k += 1
             
             if i <= q:
                 for index in range(i,q+1):
-                    sub_data[index].append(data[index])
+                    sub_data.append(data[index])
                     
-            elif j <= r:
-                for index in range(j,r):
-                    sub_data[index].append(data[index])
+            if j <= r:
+                for index in range(j,r+1):
+                    sub_data.append(data[index])
                     
             data[p:r+1] = sub_data.copy()
             
