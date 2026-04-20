@@ -1,5 +1,5 @@
 from .sorter import Sorter
-class merge_sort(Sorter):
+class MergeSort(Sorter):
     def sort(self,data:list[int],p:int,r:int)->list[int]:
         def merge(self,data:list[int],p:int,q:int,r:int)->None:
             i = p
