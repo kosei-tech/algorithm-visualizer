@@ -23,7 +23,6 @@ class QuickSort(Sorter):
                 break
         return right_idx
 
-    
     def sort(self,data:list[int])->list[int]:
         p = 0
         if len(data) <= 1:
