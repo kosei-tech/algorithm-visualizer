@@ -2,3 +2,4 @@
 class Sorter:
     def sort(self, data: list[int]) -> list[int]:
         raise NotImplementedError()
+    
