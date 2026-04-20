@@ -37,3 +37,4 @@ class QuickSort(Sorter):
             q = self.partition(data,p,r)
             self._quick_sort(data,p,q)
             self._quick_sort(data,q+1,r)
+            
