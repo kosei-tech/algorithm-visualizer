@@ -39,4 +39,3 @@ class MergeSort(Sorter):
             self._merge_sort(data,q+1,r)
             self.merge(data,p,q,r)
             
-            
